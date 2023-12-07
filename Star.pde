@@ -5,7 +5,7 @@ class Star{
     myY = (int)(Math.random()*1000);
   }
   public void show(){
-    fill((int)(Math.random()*200)+55);
+    fill(255, 255,0);
     ellipse(myX, myY, 10, 10);
   }
 }
